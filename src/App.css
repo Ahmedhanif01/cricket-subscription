@@ -1,0 +1,169 @@
+
+.container {
+  width: 45%;
+  margin: auto;
+}
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+    padding: 0;
+  }
+}
+.telco-input {
+  /* background: rgb(248, 247, 247); */
+  border: none;
+  width: 100%;
+  height: 50px;
+  border-left: 1px solid #e6e7e8;
+  outline: none;
+  font-size: 1.4rem;
+  border: 1px solid;
+  border-radius: 6px;
+  text-align: center;
+}
+.submit {
+  display: block;
+  margin: auto;
+  margin-top: 30px !important;
+  border-radius: 30px !important;
+  height: 38px;
+  width: 230px !important;
+  font-size: 1.1rem !important;
+  background: linear-gradient(270deg, #c12026 36.03%, #ed2e04 81.99%);
+  background-size: 200% 200%;
+  -webkit-animation: Animation 5s ease infinite;
+  -moz-animation: Animation 5s ease infinite;
+  animation: Animation 5s ease infinite;
+  border: none;
+  color: white;
+}
+::placeholder {
+  font-size: 15px;
+  text-align: center;
+}
+.subscription-heading{
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+.header-logo-bg{
+  text-align: center;
+  background: white;
+  padding: 15px;
+  box-shadow: 0px 1px 5px 6px rgb(233 228 228 / 75%);
+}   
+.cofirm-pin-heading{
+  font-size: 17px;
+  text-align: center;
+}
+.verification-text{
+    font-size: 17px;
+    text-align: center;
+    line-height: 1.57;
+}
+.resend-text{
+    background: transparent;
+    border: none;
+    text-decoration: none;
+    color: #cd4747;
+    font-size: 16px;
+    padding: 0;
+    font-weight: 600;
+    outline: none;
+    cursor: pointer;
+}
+
+/* Subscribe Zong User Css Start */
+.text-subcribe-carrier{
+    font-size: 18px;
+    font-weight: 500;
+}
+.text-subscription-plan-zong{
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+.zong-subscription-box{
+  box-shadow: 0px 1px 5px 6px rgb(233 228 228 / 75%);
+  padding: 12px 12px 12px 17px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.zong-subscription-box:hover{
+  background: #cfcfcf;
+}
+.zong-packages-name{
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+/* Subscribe Zong User Css End */
+
+.payout-input-cnic{
+  width: 100%;
+  height: 50px;
+  border-left: 1px solid #e6e7e8;
+  outline: none;
+  font-size: 1.4rem;
+  border: 1px solid;
+  border-radius: 6px;
+  text-align: center;
+}
+.weclome-subscribe-page{
+  box-shadow: 0px 1px 5px 6px rgb(233 228 228 / 75%);
+  padding: 10px;
+  text-align: center;
+  margin-top: 25%;
+}
+.main-loader img {
+  margin: 90px auto;
+}
+.btn-cursor-pointer{
+  cursor: pointer;
+  text-decoration: none;
+  outline: none;
+}
+.count-down-circle-timer div div{
+  left: 155px !important
+}
+.count-down-circle-timer svg{
+  position: absolute !important;
+  left: 155px !important;
+}
+.count-down-circle-timer div div{
+  left: 155px !important
+}
+.count-down-circle-timer svg{
+  position: absolute !important;
+  left: 155px !important;
+}
+@media screen and (max-width: 768px) {
+  .count-down-circle-timer div div{
+    left: 294px !important
+  }
+  .count-down-circle-timer svg{
+    position: absolute !important;
+    left: 293px !important;
+  }
+}
+@media screen and (max-width: 540px) {
+  .count-down-circle-timer div div{
+    left: 220px !important
+  }
+  .count-down-circle-timer svg{
+    position: absolute !important;
+    left: 220px !important;
+  }
+}
+@media screen and (max-width: 420px) {
+  .count-down-circle-timer div div{
+    left: 155px !important
+  }
+  .count-down-circle-timer svg{
+    position: absolute !important;
+    left: 155px !important;
+  }
+}

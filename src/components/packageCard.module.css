@@ -1,0 +1,100 @@
+/* PackageCard Css Start */
+
+#bundleBox {
+    width: 100%;
+    box-shadow: 0px 3px 6px #dceaf1;
+    border-radius: 5px;
+  }
+  
+  .bundleBox1Selected {
+    background-color: #e6e7e8;
+  }
+  
+  .bundleBox1:hover,
+  .bundleBox1Selected:hover {
+    background-color: lightgray;
+  }
+  
+  .pricePoint {
+    font-size: 24px;
+    font-weight: 700;
+  }
+  
+  .actualAmount {
+    font-size: 10px;
+    font-weight: 700;
+    position: relative;
+  }
+  .actualAmountDiv {
+    padding-left: 2px;
+    padding-right: 2px;
+    position: relative;
+  }
+  
+  .actualAmountDiv::before {
+    content: " ";
+    display: block;
+    width: 100%;
+    border-top: 2px solid #cf3737;
+    /* height: 7px; */
+    position: absolute;
+    top: 53%;
+    left: 0;
+  }
+  
+  .packageDuration {
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  .payByMobile {
+    font-size: 16px;
+    font-weight: 700;
+    color: #d32020;
+  }
+  
+  .packageSubhead {
+    font-size: 10px;
+    font-weight: 600;
+  }
+  
+  .packageCurrency {
+    font-size: 8px;
+    font-weight: 600;
+  }
+  
+  .pricePointSubHeading {
+    font-size: 10px;
+    color: rgb(139 134 134);
+    /* rgb(206, 206, 206) */
+  }
+  
+  .subhead {
+    font-size: 10px;
+    font-weight: 700;
+  }
+  
+  .bestValue {
+    color: #cf3737;
+    font-weight: 700;
+  }
+  
+  .chip {
+    border-radius: 30px !important;
+    background-color: #cf3737;
+    color: white;
+    margin-left: 6px;
+    padding: 3px;
+    font-weight: 600;
+  }
+  
+  @media screen and (min-width: 375px) {
+    .chip {
+      margin-left: 9px;
+      padding: 3px 10px 3px 10px;
+      font-size: 10px;
+    }
+  }
+  
+  /* PackageCard Css End */
+
